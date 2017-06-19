@@ -1,6 +1,6 @@
-#ifndef TaskTow_h
-#define TaskTow_h
+#ifndef TaskTwo_h
+#define TaskTwo_h
 #include "Arduino.h"
 
-void TaskTwo( void *pvParameters );
+void blink( void *pvParameters );
 #endif
