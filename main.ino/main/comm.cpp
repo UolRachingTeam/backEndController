@@ -94,7 +94,7 @@ void deliverMessage(void){
         Serial.println("-----------------------------");
         Serial.println("get data from ID: ");
         Serial.println(canId);
-
+        teValue = messageToReceive[0];
         for(int i = 0; i<len; i++)    // print the data
         {
             Serial.print(messageToReceive[i]);
